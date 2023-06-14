@@ -1,3 +1,4 @@
+![course card](images/UAMS-course-card.png)
 # Google Cloud Proteomics Training Tutorial
 
 ## Proteomics Data Analysis Overview
