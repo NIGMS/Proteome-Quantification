@@ -1,4 +1,4 @@
-![course card](images/UAMS-course-card.png)
+![course card](images/UAMS-course-card-2.png)
 Image adapted from https://doi.org/10.1038/nature01511
 
 # Google Cloud Proteomics Training Tutorial
