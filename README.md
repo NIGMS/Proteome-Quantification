@@ -31,6 +31,18 @@ This tutorial will cost you just less than $1.00 assuming a n1-standard-4 machin
 
 ## Getting Started
 
+In your Vertex AI Workbench, click Create New. Make sure User-Managed Notebooks is highlighted, as shown in the screenshot below. 
+
+![Create New user managed notebook](images/Create_new_notebook.png)
+
+In the new instance window, scroll down and select Advanced Options
+
+![Select Advanced Options](images/Advanced_options.png)
+
+In the Environment tab, select Debian 10 and R 4.2 as the operating system and environment. Make sure to click the Enable Idle Shutdown button in the Machine type tab as shown in the screenshot below. Finally, select the appropriate hardware in the Machine type tab. n1-standard-4 is sufficient for this module.
+
+![Enable Idle Shutdown](images/Enable_auto_shutdown.png)
+
 ### Basic Steps 
 
 1. Database search using Mascot, MaxQuant, or Prosit/EncylopeDIA. The example TMT data was searched using MS3 in MaxQuant. 
