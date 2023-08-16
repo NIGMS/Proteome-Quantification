@@ -19,6 +19,13 @@ This notebook outlines the essential steps in the process of analyzing proteomic
 This tutorial was designed to be used on cloud computing platforms, with the aim of requiring nothing but the files within this github repository.
 The Jupyter Notebook file can run on Google Cloud Platform, Amazon Web Service, and Microsoft Azure provided the R packages are installed. The Notebook can be launched using NIH STRIDES training module and therfore requirements should only require access NIH STRIDES resources.
 
+## **License for Data**
+
+Text and materials are licensed under a Creative Commons CC-BY-NC-SA license. The license allows you to copy, remix and redistribute any of our publicly available materials, under the condition that you attribute the work (details in the license) and do not make profits from it. More information is available [here](https://tilburgsciencehub.com/about/#license).
+
+![Creative commons license](https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png)
+
+This work is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-nc-sa/4.0/)
 
 This tutorial will cost you just less than $1.00 assuming a n1-standard-4 machine, and assuming you delete the virtual machine after you finish the tutorial.
 
