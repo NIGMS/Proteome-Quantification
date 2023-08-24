@@ -31,6 +31,13 @@ This tutorial will cost you just less than $1.00 assuming a n1-standard-4 machin
 
 ## Getting Started
 
+### *Creating a user managed notebook* 
+
+Follow the steps highlighted [here](https://github.com/STRIDES/NIHCloudLabGCP/blob/main/docs/vertexai.md) to create a new user-managed notebook in Vertex AI. Follow steps 1-8 and be especially careful to enable idle shutdown as highlighted in step 7. For this module you should select Debian 10 and R 4.2 in the Environment tab in step 5. In step 6 in the Machine type tab, select n1-standard-4 from the dropdown box.
+
+To clone this repository, open a Terminal window in your new instance and type `git clone https://github.com/NIGMS/Proteome-Quantification.git` This will create a directory called Proteome-Quantification. Navigate into that directory and open the tutorial notebooks to get started.
+
+
 ### Basic Steps 
 
 1. Database search using Mascot, MaxQuant, or Prosit/EncylopeDIA. The example TMT data was searched using MS3 in MaxQuant. 
