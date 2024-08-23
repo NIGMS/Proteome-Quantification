@@ -33,11 +33,11 @@ This tutorial will cost you just less than $1.00 assuming a t3.medium machine, a
 
 ### *Creating a user managed notebook in AWS* 
 
-Follow the steps highlighted [here](/create_aws_notebook/AWS_Notebook.md) to create a new user-managed notebook in SageMaker. In step 4 for the Notebook instance type tab, select **ml.m5.xlarge** from the dropdown box. In step 8, select **R** kernel. It is **important to shut down** the kernel at the end (step 9) to aviod getting charged. 
+Follow the steps highlighted [here](/create_aws_notebook/AWS_Notebook.md) to create a new user-managed notebook in SageMaker. In step 4 for the Notebook instance type tab, select **ml.m5.xlarge** from the dropdown box. In step 8, select **R** kernel. It is **important to stop** the kernel at the end (step 9) to aviod getting charged. 
 
 ### *Creating a user managed notebook in GCP* 
 
-Follow the steps highlighted [here](https://github.com/STRIDES/NIHCloudLabGCP/blob/main/docs/vertexai.md) to create a new user-managed notebook in Vertex AI. Follow steps 1-8 and be especially careful to enable idle shutdown as highlighted in step 7. For this module you should select Debian 10 and R 4.2 in the Environment tab in step 5. In step 6 in the Machine type tab, select ml.m5.xlarge from the dropdown box.
+Follow the steps highlighted [here](https://github.com/STRIDES/NIHCloudLabGCP/blob/main/docs/vertexai.md) to create a new user-managed notebook in Vertex AI. Follow steps 1-8 and be especially careful to **enable idle shutdown** as highlighted in step 7. For this module you should select **Debian 10 and R 4.2** in the Environment tab in step 5. In step 6 in the Machine type tab, select **n1-standard-4** from the dropdown box.
 
 To clone this repository, open a Terminal window in your new instance and type `git clone https://github.com/NIGMS/Proteome-Quantification.git` This will create a directory called Proteome-Quantification. Navigate into that directory and open the tutorial notebooks to get started.
 
