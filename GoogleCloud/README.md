@@ -1,5 +1,5 @@
 
-## *Creating a user managed notebook in GCP* 
+## *Creating a user managed notebook in Google Cloud* 
 
 Follow the steps highlighted [here](https://github.com/STRIDES/NIHCloudLabGCP/blob/main/docs/vertexai.md) to create a new user-managed notebook in Vertex AI. Follow steps 1-8 and be especially careful to **enable idle shutdown** as highlighted in step 7. For this module you should select **Debian 10 and R 4.2** in the Environment tab in step 5. In step 6 in the Machine type tab, select **n1-standard-4** from the dropdown box.
 
