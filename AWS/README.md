@@ -1,6 +1,6 @@
 ## *Creating a user managed notebook in AWS* 
 
-Follow the steps highlighted [here](/create_aws_notebook/AWS_Notebook.md) to create a new user-managed notebook in SageMaker. In step 4 for the Notebook instance type tab, select **ml.m5.xlarge** from the dropdown box. In step 9, select **R** kernel. It is **important to stop** the kernel at the end (step 9) to aviod getting charged. 
+Follow the steps highlighted [here](https://github.com/NIGMS/NIGMS-Sandbox/blob/main/docs/HowToCreateAWSSagemakerNotebooks.md) to create a new user-managed notebook in SageMaker. In step 4 for the Notebook instance type tab, select **ml.m5.xlarge** from the dropdown box. In step 9, select **R** kernel. It is **important to stop** the kernel at the end (step 9) to aviod getting charged. 
 
 To clone this repository, open a Terminal window in your new instance and type `git clone https://github.com/NIGMS/Proteome-Quantification/AWS.git` This will create a directory called Proteome-Quantification. Navigate into that directory and open the tutorial notebooks to get started.
 
