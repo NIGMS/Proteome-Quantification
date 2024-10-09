@@ -26,7 +26,7 @@ Text and materials are licensed under a Creative Commons CC-BY-NC-SA license. Th
 
 This work is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-nc-sa/4.0/)
 
-This tutorial will cost you just less than $1.00 assuming a t3.medium machine, and assuming you delete the virtual machine after you finish the tutorial.
+This tutorial will cost you just less than $1.00 assuming you stop using your computing resources at the end of the work.
 
 ## Funding
 
