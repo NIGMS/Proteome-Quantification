@@ -3,15 +3,17 @@ Image adapted from https://doi.org/10.1038/nature01511
 
 # Proteomics Training Tutorial
 
-## Proteomics Data Analysis Overview
-
-This notebook outlines the essential steps in the process of analyzing proteomics data and recommends commonly used tools and techniques for this purpose. It assumes a simple experimental design for differential abundance including two experimental conditions such as cancer vs normal. The training data provided utilized TMT10plex multiplex design with MS3 data acquisition. This notebook describes mass spectrometry and statistical terminology for data preprocessing, normalization, and differential abundance analysis. Note: This notebook uses simple base R plots. These can be modified to learn how to build better publication quality plots using R. 
+## University of Arkansas for Medical Sciences
 
 ## Table of Contents
 
-+ [Requirements](#requirements)
++ [Introduction](#Introduction)
 + [License for Data](#license-for-data)
 + [Funding](#funding)
+
+## Introduction
+
+This module outlines the essential steps in the process of analyzing proteomics data and recommends commonly used tools and techniques for this purpose. It assumes a simple experimental design for differential abundance including two experimental conditions such as cancer vs normal. The training data provided utilized TMT10plex multiplex design with MS3 data acquisition. This notebook describes mass spectrometry and statistical terminology for data preprocessing, normalization, and differential abundance analysis. Note: This notebook uses simple base R plots. These can be modified to learn how to build better publication quality plots using R. 
 
 ## Requirements
 
