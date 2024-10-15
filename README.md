@@ -15,6 +15,8 @@ Image adapted from https://doi.org/10.1038/nature01511
 
 This module outlines the essential steps in the process of analyzing proteomics data and recommends commonly used tools and techniques for this purpose. It assumes a simple experimental design for differential abundance including two experimental conditions such as cancer vs normal. The training data provided utilized TMT10plex multiplex design with MS3 data acquisition. This notebook describes mass spectrometry and statistical terminology for data preprocessing, normalization, and differential abundance analysis. Note: This notebook uses simple base R plots. These can be modified to learn how to build better publication quality plots using R. 
 
+These notebooks are available for both [AWS](/AWS) and [Google Cloud](/GoogleCloud). Follow the links to each subdirectory for cloud platform-specific information and Jupyter notebooks. 
+
 ## Requirements
 
 This tutorial was designed to be used on cloud computing platforms, with the aim of requiring nothing but the files within this github repository.
