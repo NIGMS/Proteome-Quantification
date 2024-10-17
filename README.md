@@ -3,15 +3,19 @@ Image adapted from https://doi.org/10.1038/nature01511
 
 # Proteomics Training Tutorial
 
-## Proteomics Data Analysis Overview
-
-This notebook outlines the essential steps in the process of analyzing proteomics data and recommends commonly used tools and techniques for this purpose. It assumes a simple experimental design for differential abundance including two experimental conditions such as cancer vs normal. The training data provided utilized TMT10plex multiplex design with MS3 data acquisition. This notebook describes mass spectrometry and statistical terminology for data preprocessing, normalization, and differential abundance analysis. Note: This notebook uses simple base R plots. These can be modified to learn how to build better publication quality plots using R. 
+## University of Arkansas for Medical Sciences
 
 ## Table of Contents
 
-+ [Requirements](#requirements)
++ [Introduction](#Introduction)
 + [License for Data](#license-for-data)
 + [Funding](#funding)
+
+## Introduction
+
+This module outlines the essential steps in the process of analyzing proteomics data and recommends commonly used tools and techniques for this purpose. It assumes a simple experimental design for differential abundance including two experimental conditions such as cancer vs normal. The training data provided utilized TMT10plex multiplex design with MS3 data acquisition. This notebook describes mass spectrometry and statistical terminology for data preprocessing, normalization, and differential abundance analysis. Note: This notebook uses simple base R plots. These can be modified to learn how to build better publication quality plots using R. 
+
+These notebooks are available for both [AWS](/AWS) and [Google Cloud](/GoogleCloud). Follow the links to each subdirectory for cloud platform-specific information and Jupyter notebooks. 
 
 ## Requirements
 
@@ -26,7 +30,7 @@ Text and materials are licensed under a Creative Commons CC-BY-NC-SA license. Th
 
 This work is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-nc-sa/4.0/)
 
-This tutorial will cost you just less than $1.00 assuming a t3.medium machine, and assuming you delete the virtual machine after you finish the tutorial.
+This tutorial will cost you just less than $1.00 assuming you stop using your computing resources at the end of the work.
 
 ## Funding
 
