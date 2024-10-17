@@ -26,7 +26,7 @@ This module is broken up into two submodules:
 
 ## Getting Started 
 
-Follow the steps highlighted [here](https://github.com/STRIDES/NIHCloudLabGCP/blob/main/docs/vertexai.md) to create a new user-managed notebook in Vertex AI. Follow steps 1-8 and be especially careful to **enable idle shutdown** as highlighted in step 7. For this module you should select **Debian 10 and R 4.2** in the Environment tab in step 5. In step 6 in the Machine type tab, select **n1-standard-4** from the dropdown box.
+Follow the steps highlighted [here](https://github.com/NIGMS/NIGMS-Sandbox/blob/main/docs/HowToCreateVertexAINotebooks.md) to create a notebook Instance in Vertex AI. Follow steps 1-8 and be especially careful to **enable idle shutdown** as highlighted in step 8. In step 7 in the Machine type tab, select **n1-standard-4** from the dropdown box.
 
 To clone this repository, open a Terminal window in your new instance and type `git clone https://github.com/NIGMS/Proteome-Quantification/GoogleCloud.git` This will create a directory called Proteome-Quantification. Navigate into that directory and open the tutorial notebooks to get started.
 
