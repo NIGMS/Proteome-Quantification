@@ -40,7 +40,7 @@ Make sure that after you are done with the module, close the tab that appeared w
 
 You will use a database search to locate raw files, which are then stored in Amazon S3. These files are then processed within the AWS Cloud's SageMaker ecosystem using an Amazon SageMaker Notebook. Two Jupyter notebooks execute proteomic analysis submodules: one for primary analysis and another for secondary analysis.  The results of these analyses are then outputted as result files.
 
-![](images/aws-architecture-diagram.png)
+![](images/aws-architecture-diagram.svg)
 
 ## Data 
 
