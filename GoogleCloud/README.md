@@ -35,7 +35,7 @@ To clone this repository, [open a Terminal window](https://github.com/NIGMS/NIGM
 
 You will use a database search to retrieve raw files, which are stored in Google Cloud Storage (1). These files are then processed using Jupyter Notebooks with a Python kernel on Vertex AI Workbench (2). The workbench runs two proteomic analysis submodules. The processing results are then stored back into Cloud Storage (3).
 
-![](images/gcp-architecture-diagram.png)
+![](images/gcp-architecture-diagram.svg)
 
 ## Data 
 
