@@ -28,7 +28,7 @@ This module is broken up into two submodules:
 
 Follow the steps highlighted [here](https://github.com/NIGMS/NIGMS-Sandbox/blob/main/docs/HowToCreateVertexAINotebooks.md) to create a notebook Instance in Vertex AI. Follow steps 1-8 and be especially careful to **enable idle shutdown** as highlighted in step 8. In step 7 in the Machine type tab, select **n1-standard-4** from the dropdown box.
 
-To clone this repository, [open a Terminal window](https://github.com/NIGMS/NIGMS-Sandbox/blob/main/docs/HowToCreateNewTerminalConsoleJupyterLab.md) in your new instance and type `git clone https://github.com/NIGMS/Proteome-Quantification/GoogleCloud.git` This will create a directory called Proteome-Quantification. Navigate into that directory and open the tutorial notebooks to get started.
+To clone this repository, [open a Terminal window](https://github.com/NIGMS/NIGMS-Sandbox/blob/main/docs/HowToCreateNewTerminalConsoleJupyterLab.md) in your new instance and type `git clone https://github.com/NIGMS/Proteome-Quantification.git` This will create a directory called Proteome-Quantification. Navigate into that directory and open the tutorial notebooks to get started.
 
 
 ## Architecture Design
