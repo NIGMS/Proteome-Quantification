@@ -24,7 +24,7 @@ The Jupyter Notebook file can run on Google Cloud Platform, Amazon Web Service, 
 
 ## **License for Data**
 
-Text and materials are licensed under a Creative Commons CC-BY-NC-SA license. The license allows you to copy, remix and redistribute any of our publicly available materials, under the condition that you attribute the work (details in the license) and do not make profits from it. More information is available [here](https://tilburgsciencehub.com/about/#license).
+Text and materials are licensed under a Creative Commons CC-BY-NC-SA license. The license allows you to copy, remix and redistribute any of our publicly available materials, under the condition that you attribute the work (details in the license) and do not make profits from it. More information is available [here](https://tilburgsciencehub.com/about).
 
 ![Creative commons license](images/licensebuttons.png)
 
