@@ -24,14 +24,22 @@ This module is broken up into two submodules:
 5. Set up the limma model and run analysis. The model should consider factors such as batch, sex, age, if the samples are paired, etc. 
 6. Plot the results using Volcano and/or MD plots. 
 
-## Getting Started 
+## Getting Started
 
-Follow the steps highlighted [here](https://github.com/NIGMS/NIGMS-Sandbox/blob/main/docs/HowToCreateVertexAINotebooks.md) to create a notebook Instance in Vertex AI. Follow steps 1-8 and be especially careful to **enable idle shutdown** as highlighted in step 8. In step 7 in the Machine type tab, select **n1-standard-4** from the dropdown box.
+### Creating a notebook instance with R kernel 
 
-To clone this repository, [open a Terminal window](https://github.com/NIGMS/NIGMS-Sandbox/blob/main/docs/HowToCreateNewTerminalConsoleJupyterLab.md) in your new instance and type `git clone https://github.com/NIGMS/Proteome-Quantification.git` This will create a directory called Proteome-Quantification. Navigate into that directory and open the tutorial notebooks to get started.
+Follow the steps highlighted in the second part (2. Spin up Instance from a Container) of [here](https://github.com/NIGMS/NIGMS-Sandbox/blob/main/docs/HowToCreateVertexAINotebooks.md) to create a new notebook instance in Vertex AI. Follow steps 1-8, in step 5 select region us-east4 (Northern Virgina) and be especially careful to use custom container `us-east4-docker.pkg.dev/nih-cl-shared-resources/nigms-sandbox/nigms-vertex-r` in step 6 under the Docker container image prompt. In step 7 under the Machine type tab, select n1-standard-4 from the dropdown box.
+
+### Downloading Tutorial Files
+
+Now that you have created your virtual machine, and are in the JupyterLab screen, you will need to download the module content.  The easiest way to do this is to clone the repository directly for the NIGMS Github. This can be done by opening a terminal in your JupyterLab environment (click the blue box with the white plus sign in the upper right corner and click the "Terminal" icon in the Launcher menu which comes up) and running the command `git clone https://github.com/NIGMS/Proteome-Quantification.git`. 
+
+This should download our repo, and the tutorial files inside, into a folder called 'Analysis-of-Biomedical-Data-for-Biomarker-Discovery'. Double click this folder now. Inside you will find all of the tutorial files, which you can double click and run.
+
+Note, when you are finished running code, you should turn off your virtual machine to prevent unneeded billing or resource use by checking your notebook and pushing the **STOP** button.
 
 
-## Architecture Design
+### Architecture Design
 
 You will use a database search to retrieve raw files, which are stored in Google Cloud Storage (1). These files are then processed using Jupyter Notebooks with a Python kernel on Vertex AI Workbench (2). The workbench runs two proteomic analysis submodules. The processing results are then stored back into Cloud Storage (3).
 
