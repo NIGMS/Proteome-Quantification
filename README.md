@@ -1,13 +1,16 @@
-![course card](images/UAMS-course-card-2.png)
-Image adapted from https://doi.org/10.1038/nature01511
-
 # Proteomics Training Tutorial
+
+<br>
+<p align="center">
+    <img src="images/UAMS-course-card-2.png" width="400" />
+</p>
+Image adapted from https://doi.org/10.1038/nature01511
 
 ## University of Arkansas for Medical Sciences
 
 ## Table of Contents
 
-+ [Introduction](#Introduction)
++ [Introduction](#introduction)
 + [License for Data](#license-for-data)
 + [Funding](#funding)
 
